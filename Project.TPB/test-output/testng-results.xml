@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="113337" started-at="2021-03-04T16:58:35Z" finished-at="2021-03-04T17:00:29Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="113337" started-at="2021-03-04T16:58:35Z" finished-at="2021-03-04T17:00:29Z">
+      <class name="Tests.TPBLogin">
+        <test-method status="PASS" signature="setuptest()[pri:0, instance:Tests.TPBLogin@13a5fe33]" name="setuptest" is-config="true" duration-ms="7643" started-at="2021-03-04T16:58:35Z" finished-at="2021-03-04T16:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuptest -->
+        <test-method status="PASS" signature="loginpage(java.lang.String, java.lang.String)[pri:0, instance:Tests.TPBLogin@13a5fe33]" name="loginpage" duration-ms="30604" started-at="2021-03-04T16:58:49Z" data-provider="Testlogindata" finished-at="2021-03-04T16:59:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[acid_qa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method status="PASS" signature="Newlayout(java.lang.String)[pri:1, instance:Tests.TPBLogin@13a5fe33]" name="Newlayout" duration-ms="7166" started-at="2021-03-04T16:59:20Z" data-provider="Testlayoutdata" finished-at="2021-03-04T16:59:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Khoản vay]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Newlayout -->
+      </class> <!-- Tests.TPBLogin -->
+      <class name="Tests.KhoanVayLayout">
+        <test-method status="PASS" signature="enterKhoanVayLayoutDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:Tests.KhoanVayLayout@3108bc]" name="enterKhoanVayLayoutDetails" duration-ms="55099" started-at="2021-03-04T16:59:28Z" data-provider="Test2data" finished-at="2021-03-04T17:00:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CV Thấu chi tín chấp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KH mới tự có]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nha Trang]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01.New Lead]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Darren]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9846732424]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[gsadh@hfds.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ID20000001]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[An Giang]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterKhoanVayLayoutDetails -->
+        <test-method status="PASS" signature="closebrowser()[pri:4, instance:Tests.KhoanVayLayout@3108bc]" name="closebrowser" duration-ms="5489" started-at="2021-03-04T17:00:23Z" finished-at="2021-03-04T17:00:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Tests.KhoanVayLayout -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
